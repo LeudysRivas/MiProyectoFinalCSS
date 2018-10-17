@@ -50,6 +50,7 @@ a::selection {
 #contenido-secundario {
     width: 100%;
     background-color: #d5c75f;
+    
 }
 
 .caption {
@@ -58,6 +59,21 @@ a::selection {
   
 .caption > a:link{color: black;
 font-size: 2.5em;}
+
+#paisaje:hover{
+    transform: rotate(10deg);
+    box-shadow: 2px 2px #82c3a6 ;
+    border: solid 2px black;
+
+}
+
+#retrato:hover{
+    transform: (5px);
+    box-shadow: 2px 2px #82c3a6 ;
+    border: solid 2px black;
+  
+
+}
 
 
 
