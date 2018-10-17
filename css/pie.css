@@ -1,0 +1,38 @@
+#pie-pagina{
+background-color:  #C6d5c5;
+border-radius: 0px 0px 10px 10px;
+width: 100%;
+
+}
+
+
+@media (min-width :900px)
+{
+
+    #pie-pagina{
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+       
+        
+    }
+    .pie {
+        width: 25%;
+        text-align: center;
+        
+    }
+}
+
+
+
+@media (max-width :899px)
+{
+
+    .pie {
+        
+        text-align: left;
+        margin-left:2%; 
+        
+    }
+
+}
