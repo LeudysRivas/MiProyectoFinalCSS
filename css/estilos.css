@@ -1,57 +1,70 @@
-@font-face{
- font-family: Dancing Script;
- src: url(../fuentes/DancingScript-Regular.otf);
+@font-face {
+    font-family: Dancing Script;
+    src: url(../fuentes/DancingScript-Regular.otf);
 }
 
- body 
- {font-family: 'Dancing Script';
-background-color:  #02010a;
+body {
+    font-family: 'Dancing Script';
+    background-color: #02010a;
 }
 
-
-
-#contenido {
-width: 900px;
-margin: 0 auto;
-
-
-
-
-}
 
 #cabecera {
     height: auto;
     color: white;
-    width:100%;
+    width: 100%;
     background-color: #5b7989;
-    border-radius: 10px 10px 0 0 ;
-    display: flex;
-    flex-direction: row;
-    padding: 1%;
-    
-  
-
+    border-radius: 10px 10px 0 0;
+ 
+   
 }
 
+
 #cabecera #titulo {
-
-text-shadow: 2px 2px #02010a;
-width: 60%;
-
-
-
+    text-shadow: 2px 2px #02010a;
 }
 
 nav li {
     display: inline;
-    
-    padding: 10px;
+    padding: 0.5em;
+    list-style-type:none ;
 }
 
-a{color: white}
+a {
+    color: white;
+}
 
-a::selection{
- text-decoration: none;
+a::selection {
+    text-decoration: none;
+}
+
+
+  
+
+@media ( min-width: 900px)  /*version desktop*/
+
+ {
+    #cabecera {
+        display: flex;
+        flex-direction: row;
+
+       
+    }
+    #cabecera #titulo {
+       width: 70%;
+        text-align: left;
+        margin-left:2% ; 
+
+    }
+    #contenido {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+
+    nav {width: 30%;
+    margin: 1em;}
+   
 }
 
 
@@ -60,5 +73,19 @@ a::selection{
 
 
 
-    
+@media ( max-width: 900px) /*version movil*/
 
+ {
+   #cabecera>* {
+        text-align: center;
+    }
+
+
+
+    #cabecera {
+        display: flex;
+        flex-direction: column;
+        
+        }
+    
+}
