@@ -39,6 +39,10 @@
         height: 250px;
         border: solid 1px black;
     }
+
+    #imagenprincipal{
+        height:350px; ;
+    }
 }
 
 @media ( max-width: 899px) {
