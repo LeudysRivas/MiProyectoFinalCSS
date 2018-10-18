@@ -52,6 +52,7 @@
     #cabecera {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
     .imagenes {
         width: 90%;
