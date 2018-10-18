@@ -1,3 +1,10 @@
+.imagenes {
+    width: auto;
+    display: block;
+    margin: 3% auto 3%;
+    box-shadow: 2px 2px #02010a;
+    border-radius: 5px;}
+
 @media ( min-width: 900px) {
     #cabecera {
         display: flex;
@@ -16,12 +23,7 @@
         width: 40%;
         margin: 1em;
     }
-    .imagenes {
-        width: auto;
-        display: block;
-        margin: 3% auto 3%;
-        box-shadow: 2px 2px #02010a;
-        border-radius: 5px;
+  
     }
     #contenido-secundario {
         display: -webkit-flex;
