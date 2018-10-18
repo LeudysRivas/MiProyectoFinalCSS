@@ -3,7 +3,24 @@ background-color:  #C6d5c5;
 border-radius: 0px 0px 10px 10px;
 width: 100%;
 
+
 }
+
+.iconos
+{
+    margin-right: 3px;
+    position: relative;
+    top: 4px;
+    width: 20px;
+}
+
+.pie p, h2{font-size: 2vh;}
+
+.pie p{
+    text-align: left;
+    margin-left: 10px;
+}
+
 
 
 @media (min-width :900px)
@@ -13,12 +30,14 @@ width: 100%;
         display: -webkit-flex;
         display: flex;
         flex-direction: row;
-       
+        box-sizing: border-box;
+        
         
     }
     .pie {
         width: 25%;
         text-align: center;
+       
         
     }
 }
