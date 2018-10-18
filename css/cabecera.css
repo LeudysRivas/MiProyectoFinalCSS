@@ -14,7 +14,35 @@ body {
     width: 100%;
     background-color: #5b7989;
     border-radius: 10px 10px 0 0;
-    
+    animation: slidein 1s;
+}
+
+
+.sinsubrayado{
+    text-decoration: none;
+      }
+@keyframes slidein{
+    0% {
+        margin-top: 150%;
+    }
+    60% {
+        margin-top: -5%;
+    }
+    100% {
+        margin-top: 0%;
+    }
+
+}
+@-webkit-keyframes slidein {
+    0% {
+        margin-top: 150%;
+    }
+    60% {
+        margin-top: -5%;
+    }
+    100% {
+        margin-top: 0%;
+    }
 }
 
 #contenido {
@@ -37,10 +65,9 @@ nav li {
 
 a {
     color: white;
-    
 }
 
-a:active{
+a:active {
     text-decoration: none;
 }
 
@@ -54,39 +81,31 @@ a:active{
     width: 100%;
     background-color: #d5c75f;
     box-sizing: border-box;
-    
-    
 }
 
 .caption {
     text-align: center;
-    
 }
-
 
 .caption a:visited {
-    color:black;
-    
+    color: black;
 }
-  
-.caption > a:link{color: black;
-font-size: 2.5em;}
 
-#paisaje:hover{
+.caption>a:link {
+    color: black;
+    font-size: 2.5em;
+}
+
+#paisaje:hover {
     transform: rotate(10deg);
-    box-shadow: 2px 2px #82c3a6 ;
+    box-shadow: 2px 2px #82c3a6;
     border: solid 2px black;
     transition: 0.5s;
-  
-
 }
 
-#retrato:hover{
+#retrato:hover {
     transform: translate(5px, -20px);
-    box-shadow: 2px 2px #82c3a6 ;
+    box-shadow: 2px 2px #82c3a6;
     border: solid 2px black;
     transition: 0.5s;
-    
-
 }
-
