@@ -1,6 +1,10 @@
 
+
+
+  
+
 @media ( min-width: 900px)
-/*version desktop*/
+
 
     {
     #cabecera {
@@ -12,10 +16,15 @@
         text-align: left;
         margin-left: 2%;
     }
+ 
     #contenido {
         width: 900px;
-        margin: 0 auto;
-    }
+        margin: 0px auto;
+       }
+    
+      
+    
+    
     nav {
         width: 40%;
         margin: 1em;
@@ -25,11 +34,15 @@
         display: block;
         margin: 3% auto 3%;
         box-shadow: 2px 2px #02010a;
+        border-radius: 5px;
     }
-    #contenido-secundario {
+  #contenido-secundario {
         display: -webkit-flex;
         display: flex;
         flex-direction: row;
+        justify-content:center;
+     
+        width: 100%;
         
     }
     #imagen-paisaje, #imagen-retrato {
@@ -39,13 +52,14 @@
     }
     #contenido-secundario figure img {
         height: 250px;
-        border: solid 1px black;
+        border: solid 1px black;}
 
-    }
+       
+    
 }
 
 @media ( max-width: 899px)
-/*version movil*/
+
 
     {
     #cabecera>* {

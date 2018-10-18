@@ -1,0 +1,56 @@
+ 
+ .galeria:first-child
+ {
+
+    filter: blur(10px);
+ }
+
+ .galeria:nth-child(even)
+ {
+
+    filter: grayscale(100%);
+ }
+
+
+ .galeria:nth-child(3)
+ {
+
+    filter: sepia(90%);
+ }
+
+
+ 
+ /* desktop*/
+
+ @media ( min-width: 900px) {
+
+#galerias {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+   
+       
+}
+
+
+
+
+}
+}
+
+
+
+
+ /* movile*/
+
+ @media ( max-width: 899px) {
+
+    #galerias {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+             
+    }}
